@@ -1,0 +1,51 @@
+.signupSection {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    color: #333;
+  }
+  
+  .signupSection h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #113c3c;
+  }
+  
+  .signupSection p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .signupForm input[type="email"] {
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .signupForm button {
+    padding: 12px 25px;
+    background-color: #113c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signupForm button:hover {
+    background-color: #0b2929;
+  }
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

@@ -1,0 +1,15 @@
+.cart-icon-link {
+    text-decoration: none;
+    margin-right: 8px;
+  }
+  
+  .cart-icon {
+    font-size: 22px;
+    color: white;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .cart-icon:hover {
+    color: #cccccc;
+    cursor: pointer;
+  }

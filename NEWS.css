@@ -1,0 +1,24 @@
+.newsSection {
+    max-width: 750px;
+    margin: 100px auto;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    color: #222;
+  }
+  
+  .newsSection h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #113c3c;
+  }
+  
+  .newsSection p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,116 @@
+html { background: #111; }
+body { background: #ddd; width: 800px; margin: 0 auto; padding: 2rem;
+  
+ font-family: 'Open Sans Condensed', sans-serif;
+line-height: 1.75;
+    }
+h1 { 
+   font-family: 'Indie Flower', cursive;
+ }
+h2 { font-family: 'Indie Flower', cursive; }
+
+h3 { font-family: 'Indie Flower', cursive; }
+.box {
+  width: auto;
+  height: 145px;
+  margin: 20px;
+  padding: 45px 20px;
+  border-width: 10px;
+  border-color:black;
+  border-style:double;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+.box1 {
+  width: 500px;
+  height: 75px;
+  margin: 20px 70px 20px 90px;
+  padding: 25px 25px 25px 60px;
+  border-width: 10px 25px;
+  border-color: black;
+  border-style:solid;
+  padding-bottom: 65px;
+
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+.box2 {
+  width: 500px;
+  height: 75px;
+  margin: 20px 70px 20px 90px;
+  padding: 25px 25px 25px 60px;
+  border-width: 15px 40px;
+  border-style: groove;
+  padding-bottom: 40px;
+  padding-top: 10px;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+.box3 {
+  width: 265px;
+  height: 60px;
+  margin: 20px 45px;
+  padding: 35px 20px 20px;
+  border-width: 10px 25px;
+  border-color: blue;
+  border-style: solid;
+  padding-bottom: 30px;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+.box4 {
+  width: 440px;
+  height: 40px;
+  margin: 20px 45px;
+  padding: 35px 20px 20px;
+  border-width: 10px 25px;
+  border-color: aqua;
+  border-style: solid;
+  padding-bottom: 70px;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}.box5 {
+  width: 440px;
+  height: 200px;
+  margin: 20px 90px;
+  padding: 60px;
+  border-width: 15px 40px;
+  border-color: black;
+  border-style: ridge;
+  padding-bottom: 5px;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+.box6 {
+  width: 375px;
+  height: 25px;
+  margin: 20px 90px;
+  padding: 25px 25px 25px 60px;
+  border-width: 15px 40px;
+  border-color: blue;
+  border-style: double;
+  padding-bottom: 60px;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+.box7 {
+  width: 375px;
+  height: 375px;
+  margin: 20px 90px;
+  padding: 25px 25px 25px 60px;
+  border-width: 15px 40px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 5px;
+
+  /* border-style and border-color must
+     be set for border-width to apply */
+}
+

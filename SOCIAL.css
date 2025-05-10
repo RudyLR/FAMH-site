@@ -1,0 +1,113 @@
+body{
+    margin:  0;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+.navItem{
+    margin: 1em;
+    color: antiquewhite;
+}
+
+.navItem:hover{
+   text-decoration: underline;
+    color: bisque;
+}
+
+a:visited {
+    color: rgb(235, 3, 219);
+  }
+
+.footBar{
+    display: flex;
+    justify-content:  space-evenly;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    margin-bottom: 1em;
+}
+
+.fakeFoot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px dashed black;
+width: 100%;
+
+background-color: dimgray;
+opacity: 10%;
+}
+
+.footItem{
+    margin: 0.5em;
+}
+.social {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.social h2 {
+  font-size: 28px;
+  color: #113c3c;
+  margin-bottom: 15px;
+}
+
+.social p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+}
+.socialLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #113c3c;
+    margin-bottom: 15px;
+  }
+  
+  .socialLink:hover {
+    color: #d81b60;
+  }
+  
+  .socialIcon {
+    width: 24px;
+    height: 24px;
+  }
+  .socialSection {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  
+  .socialSection h2 {
+    font-size: 28px;
+    color: #113c3c;
+    margin-bottom: 15px;
+  }
+  
+  .socialSection p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+  }

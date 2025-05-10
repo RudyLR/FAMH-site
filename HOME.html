@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="layout-practice.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navBar">
+        <a href="HOME.html">
+            <img src="FAMHLOGO.png" alt="FAMHLOGO" class="logo">
+          </a>
+        <h1 class="navItem"><a href="FAMH.html">FAMH</a></h1>  
+        <h1 class="navItem"><a href="SHOP.html">SHOP</a></h1>
+        <h1 class="navItem"><a href="about.html">ABOUT</a></h1>
+        <h1 class="navItem"><a href="Contact.html">CONTACT</a></h1>
+        <div id="cartIcon">
+            <a href="cart.html" class="cart-icon-link">
+                <span class="cart-icon">🛒</span>
+              </a>
+              <span><strong>Your Cart</strong> - <span id="cartCount">0</span> items - Total: $<span id="cartTotal">0.00</span></span></div>
+          <button id="clearCart">Clear Cart</button>
+<button id="checkout">Checkout</button>
+    </nav>
+
+    <footer class="footBar">
+        <h2 class="footItem"><a href="SOCIAL.html">SOCIAL</a></h2> 
+        <h2 class="FootItem"><a href="POLICY.html">POLICY</a></h2>
+        <h2 class="footItem"><a href="NEWS.html">NEWS</a></h2>
+        <h2 class="footItem"><a href="SIGNUP.html">SIGNUP</a></h2>
+        
+</footer>
+<section style="text-align: center; margin-top: 40px;">
+    <h2 style="font-family: 'Poppins', sans-serif; font-size: 24px;">Future Designs Coming Soon</h2>
+    <p style="max-width: 600px; margin: 10px auto; font-size: 16px;">
+      Get ready for exclusive FAMH drops featuring bold messages and cultural nods. From our Philly-inspired styles to street-savvy graphic statements, each piece shown above is a preview of what’s to come. Stay tuned  we’re just getting started.
+    </p>
+  </section>
+<div class="product-container">
+    <div class="product">
+        <img src="classic Eagle FAMH [Recovered] (1).png" alt="" class="product-image">
+        <a href="layout-layout1.html">click me</a>
+    </div>
+    <div class="product">
+        <img src="D&H&D&P&L.png" alt="" class="product-image">
+        <a href="layout-layout2.html">click me</a>
+    </div>
+
+    <div class="product">
+        <img src="FAMgraffiti.png" alt="" class="product-image">
+        <a href="layout-layout3.html">click me</a>
+    </div>
+</div>
+
+<footer class="fakeFoot">
+<h1>.</h1>
+</footer>
+
+<script>
+    const addToCartBtn = document.querySelector(".cart-button");
+  
+    addToCartBtn.addEventListener("click", () => {
+      const item = {
+        name: "FAMH Tee",
+        price: 45
+      };
+  
+      let cart = JSON.parse(localStorage.getItem("cart")) || [];
+      cart.push(item);
+      localStorage.setItem("cart", JSON.stringify(cart));
+  
+      
+      const cartCount = document.getElementById("cartCount");
+      if (cartCount) {
+        cartCount.textContent = cart.length;
+      }
+    });
+  </script>
+  
+</body>
+<script src="cart.js"></script>

@@ -1,0 +1,63 @@
+body{
+    margin:  0;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+.navItem{
+    margin: 1em;
+    color: antiquewhite;
+}
+
+.navItem:hover{
+   text-decoration: underline;
+    color: bisque;
+}
+
+.footBar{
+    display: flex;
+    justify-content:  space-evenly;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    margin-bottom: 1em;
+}
+
+.fakeFoot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px dashed black;
+width: 100%;
+
+background-color: dimgray;
+opacity: 10%;
+}
+
+.footItem{
+    margin: 0.5em;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    margin-top: 10em;
+
+}
+
+.product-image{
+    width: 300px;
+    height: 300px;
+}
+
+
