@@ -10,12 +10,12 @@ body{
 
 .navItem{
     margin: 1em;
-    color: antiquewhite;
+    color: rgb(218, 123, 0);
 }
 
 .navItem:hover{
    text-decoration: underline;
-    color: bisque;
+    color: rgb(218, 123, 0);
 }
 
 .footBar{

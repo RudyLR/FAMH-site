@@ -10,30 +10,29 @@ body{
 
 .navItem{
     margin: 1em;
-    color: antiquewhite;
+    color: rgb(218, 123, 0);
 }
 
 .navItem:hover{
    text-decoration: underline;
-    color: bisque;
+    color: rgb(218, 123, 0);
 }
 
 a:visited {
-    color: rgb(235, 3, 219);
+    color: rgb(218, 123, 0);
   }
 
-.footBar{
+  .footBar {
     display: flex;
-    justify-content:  space-evenly;
+    justify-content: space-evenly;
     align-items: center;
-
+    background-color: darkslategrey; /* same as navbar */
+    padding: 1rem;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-
-    margin-bottom: 1em;
-}
+  }
 
 
 
@@ -53,12 +52,21 @@ a:visited {
 .product-image {
   max-width: 100%;
   height: auto;
-  max-height: 250px; 
+  max-height: 250px;
   display: block;
   margin: 0 auto;
   object-fit: contain;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.product-image:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
 .cart-button {
     background-color: darkslategray;
     color: antiquewhite;
@@ -224,8 +232,8 @@ button {
   margin: 10px 5px;
   border: none;
   border-radius: 30px;
-  background-color: #113c3c;
-  color: white;
+  background-color: #c100fc;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
@@ -234,9 +242,9 @@ button {
 }
 
 button:hover {
-  background-color: #1f5e5e; /* lighter green tone */
+  background-color: #00ff48; /* lighter green tone */
   transform: translateY(-2px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 10px rgba(242, 1, 255, 0.15);
 }
 .cart-wrapper {
   max-width: 500px;
@@ -257,14 +265,23 @@ button:hover {
 }
 
 .cart-icon-link {
-  text-decoration: none;
-  margin-right: 8px;
+  padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
-.cart-icon {
-  font-size: 22px;
-  color: white;
-  transition: color 0.2s ease-in-out;
+
+#cartIcon {
+  color: #ffffff; /* or #ffcc00 or any high-contrast color */
+  font-weight: bold;
 }
 
 .cart-icon:hover {

@@ -10,41 +10,32 @@ body{
 
 .navItem{
     margin: 1em;
-    color: antiquewhite;
+    color: rgb(255, 145, 0);
 }
 
 .navItem:hover{
    text-decoration: underline;
-    color: bisque;
+    color: rgb(218, 123, 0);
 }
 
 a:visited {
-    color: rgb(235, 3, 219);
+    color: rgb(218, 123, 0);
   }
 
-.footBar{
+  .footBar {
     display: flex;
-    justify-content:  space-evenly;
+    justify-content: space-evenly;
     align-items: center;
-
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    background-color: darkslategray; /* or your chosen color */
+    padding: 1em 0;
+    z-index: 100;
+  }
 
-    margin-bottom: 1em;
-}
 
-.fakeFoot{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border-top: 2px dashed black;
-width: 100%;
-
-background-color: dimgray;
-opacity: 10%;
-}
 
 .footItem{
     margin: 0.5em;
